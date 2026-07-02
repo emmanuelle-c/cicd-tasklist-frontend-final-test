@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "sonar:scan": "sonar-scanner"
   },
   "dependencies": {
     "@emnapi/core": "^1.11.1",
@@ -28,6 +29,7 @@
     "@vitejs/plugin-react": "^6.0.2",
     "@vitest/coverage-v8": "^4.1.9",
     "jsdom": "^29.1.1",
+    "sonar-scanner": "^3.1.0",
     "typescript": "~6.0.2",
     "vite": "^8.0.12",
     "vitest": "^4.1.9"
