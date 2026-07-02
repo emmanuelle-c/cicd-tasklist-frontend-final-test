@@ -26,7 +26,7 @@ describe('taskApi', () => {
 
 		const tasks = await getTasks();
 		expect(tasks).toEqual([mockTask]);
-		expect(fetch).toHaveBeenCalledWith('/api/tasks');
+		expect(fetch).toHaveBeenCalledWith('http://localhost:3001/api/tasks');
 	});
 
 	it('createTask returns a created task', async () => {
